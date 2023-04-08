@@ -1,0 +1,24 @@
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #008000;
+	text-align: center;
+}
+
+.popup-btn {
+	margin-top: 20px;
+	width: 150px;
+	height: 50px;
+	background-color: #40b740;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.popup-btn:hover {
+	background-color: #266226;
+	color: #fff;
+}

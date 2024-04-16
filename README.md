@@ -1,7 +1,7 @@
 # Validation form
 
 My project is validation form in React and Formik.
-My version page---> http://projekt2.mkpage.pl/
+You must clone repository and npm install
 
 ## Technologies in project
 

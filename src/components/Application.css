@@ -1,57 +1,81 @@
 .title-app {
-	text-align: center;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-top: 20px;
+  letter-spacing: 1px;
 }
 
 .box-form {
-	height: 100vh;
-	margin-top: 30px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 30px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: #f9f9f9;
+  padding: 40px;
+  box-shadow: 0 4px 20px #0000001a;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: auto;
 }
 
-.input-style {
-	padding: 15px;
-	background-color: #adadad;
-	border: 2px solid #23231d;
-	border-radius: 5px;
-}
-
-.input-style::placeholder {
-	color: #23231d;
-}
-
+.input-style,
 .select-style {
-	padding: 10px;
-	background-color: #adadad;
-	border: 2px solid #23231d;
-	border-radius: 5px;
-	cursor: pointer;
-	transition: all 0.5s;
+  padding: 14px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border: 1px solid #d1d9de;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 1px 3px #0000001a;
 }
 
-.select-style:hover {
-	color: #fff;
-	background-color: #23231d;
+.input-style::placeholder,
+.select-style::placeholder {
+  color: #7f8c8d;
+}
+
+.input-style:focus,
+.select-style:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px #3498db80;
 }
 
 .error-msg {
-	color: #ff2600;
-	font-weight: bold;
+  color: #e74c3c;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: -15px;
+  margin-bottom: 10px;
 }
 
 .btn {
-	width: 150px;
-	height: 50px;
-	background-color: #40b740;
-	border: none;
-	border-radius: 20px;
-	cursor: pointer;
-	transition: all 0.5s;
+  width: 160px;
+  height: 50px;
+  background: linear-gradient(135deg, #4caf50, #81c784);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px #00000026;
 }
 
 .btn:hover {
-	background-color: #266226;
-	color: #fff;
+  background: linear-gradient(135deg, #388e3c, #66bb6a);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px #00000033;
+}
+
+.select-style:hover {
+  border-color: #3498db;
+  background-color: #f0f4f7;
+  color: #333;
 }

@@ -1,12 +1,12 @@
-import React from 'react';
-import Application from './components/Application';
+import React from "react";
+import Application from "./components/Application";
 
 const App = () => {
-	return (
-		<div className='App'>
-			<Application />
-		</div>
-	);
+  return (
+    <div className="App">
+      <Application />
+    </div>
+  );
 };
 
 export default App;

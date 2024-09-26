@@ -10,7 +10,7 @@ enhancing user experience and data integrity.
 - **Yup**
 
 ## Live Demo :
-Check out the live demo [here]([https://my-bc.vercel.app/](https://validation-form-snowy.vercel.app/)).
+Check out the live demo [here]([https://validation-form-snowy.vercel.app/]).
 
 ## How to Use :
 1. Clone the repository.
